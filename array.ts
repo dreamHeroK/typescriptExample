@@ -1,3 +1,5 @@
+
+
 const arr: (number | string)[] = ['1', 2, 3]
 
 const numberArr: Array<number> = [1, 2, 3, , , 44, 5]
