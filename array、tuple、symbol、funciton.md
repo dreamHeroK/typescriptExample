@@ -44,6 +44,7 @@ type chaos= (string | number | boolean | { x: string })
 type chaosArray =chaos[]
 
 type item = chaosArray[number] //chaos
+type item = chaosArray[0] //chaos 任何下标都是数组成员类型
 ```
 
 如果数组变量没有声明类型，TypeScript 就会推断数组成员的类型。这时，推断行为会因为值的不同，而有所不同。
